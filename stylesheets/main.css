@@ -1,0 +1,82 @@
+body {
+  background-image: url("../images/1.jpg");
+  background-size: 100% 100%;
+}
+
+div.halfpage {
+  height: 100%;
+  width: 50%;
+  float: right;
+  background: rgb(38, 38, 38);
+  opacity: 0.5;
+  z-index: -1;
+}
+
+div.moveimages{
+  transform: translate(730px, 235px);
+  float:right;
+  position: relative;
+}
+
+div.options {
+  background: rgb(204,78,1);
+  width: 50%;
+  height: 50px;
+  transform: translateX(100%);
+  position: absolute;
+}
+
+div.title {
+  background: rgb(51, 53, 57);
+  width: 50%;
+  height: 35px;
+  transform: translateX(100%);
+  position: absolute;
+  overflow: hidden;
+}
+
+h1.titletext {
+  color: white;
+  font-family: Arial;
+  font-size: 15pt;
+  padding: 8px;
+  padding-left: 15px;
+}
+
+p.infotext {
+  color: white;
+  font-family: Arial;
+  font-size: 6pt;
+  transform: translate(50%, -75px);
+  padding-left: 20px;
+}
+
+h1.infotitle {
+  color: white;
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 10pt;
+  transform: translate(50%, -100px);
+  padding-left: 20px;
+}
+
+tr.spacing>td {
+  padding-bottom: 5px;
+}
+#imagetext{
+  color: white;
+  font-weight: bold;
+  font-family: Arial;
+  font-size: 7pt;
+}
+#images{
+  float: right;
+  width: 33.33%;
+  height: 160px;
+  width: 220px;
+  margin-right: 15px;
+  border: orange;
+  border-style: solid;
+  border-width: 1px;
+  align-content: flex-end;
+}
